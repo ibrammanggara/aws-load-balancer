@@ -46,6 +46,8 @@
 1. masukan nama igw : IGW-SAKTI
 2. attach ke vpc : VPC-SAKTI
 
+---
+
 ## langkah membuat 2 routable (publik dan privat)
 
  ### publik
@@ -57,6 +59,8 @@
 2. pilih vpc : VPC-SAKTI
 3. save
 
+---
+
 ## langkah mengkaitkan routable (publik)
 
 ### RT-PUBLIK SAKTI
@@ -67,7 +71,9 @@
 5. SUBNET PUBLIK 1B
 6. SUBNET PUBLIK 1A
 
-## langkah membuat EC2 (publik)
+---
+
+## langkah membuat EC2 (publik bastion)
 
 1. masukan nama ec2 : bastion host
 2. ami : amazon linux 2
@@ -75,6 +81,8 @@
 4. key pair : sakti.pem
 5. network setting : VPC-sakti, SUBNET PUBLIK 1A, ip publik Enable
 6. buat security gruop : nama = sakti-keamanan | ssh = 22 | http = 80 | https = 443 | anywhere - IPv4
+7. storage : 8GB
+8. save
 
 
 
