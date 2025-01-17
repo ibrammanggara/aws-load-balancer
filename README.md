@@ -97,7 +97,28 @@
 7. storage : 8GB
 8. save
 
+### edit EC2 nat instance
+
+1. masuk instance ec2
+2. code : https://github.com/ibrammanggara/natinstance-ec2-al
+-
+1. pilih nat instance > action > networking > change source/destination check
+2. ceklis stop
+3. save
+
+
 ---
+
+### edit EC2 nat instance
+
+
+
+
+
+
+
+
+
 
 
 
