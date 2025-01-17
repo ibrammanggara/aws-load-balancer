@@ -119,7 +119,11 @@
 6. SUBNET PRIVAT 1A
 
 ---
-p
+
+## testing EC2 private terhubung ke internet melalui nat
+
+1. 
+
 ---
 
 ## langkah membuat launch template (EC2)
