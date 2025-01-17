@@ -24,3 +24,6 @@
 
 ### jika berhasil akan terlihat seperti screen ini
 
+![PING Gambar](https://raw.githubusercontent.com/ibrammanggara/aws-load-balancer/main/ping.png)
+
+### ping berhasil dan jika anda lebih teliti maka akan terlihat saya sedang meremot EC2 private dengan EC2 publik (bastion)
