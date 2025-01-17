@@ -22,15 +22,15 @@
 2. masukan nama subnet : SUBNET PUBLIK 1A
 3. pilih az : us-east-1a
 4. masukkan IPv4 subnet CIDR block : 192.168.10.0/24
-    (+) add new subnet
+   ### (+) add new subnet
 1. masukan nama subnet : SUBNET PRIVAT 1A
 2. pilih az : us-east-1a
 3. masukkan IPv4 subnet CIDR block : 192.168.20.0/24
-    (+) add new subnet
+   ### (+) add new subnet
 1. masukan nama subnet : SUBNET PUBLIK 1B
 2. pilih az : us-east-1b
 3. masukkan IPv4 subnet CIDR block : 192.168.30.0/24
-    (+) add new subnet
+   ### (+) add new subnet
 1. masukan nama subnet : SUBNET PRIVAT 1B
 2. pilih az : us-east-1b
 3. masukkan IPv4 subnet CIDR block : 192.168.40.0/24
