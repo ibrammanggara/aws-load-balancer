@@ -132,8 +132,9 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 2. ami : amazon linux 2
 3. instance type : t2.micro
 4. key pair : sakti.pem
-5. user data : (code)
-6. save
+5. security grup : sakti-keamanan
+6. user data : (code)
+7. save
 
 ---
 
