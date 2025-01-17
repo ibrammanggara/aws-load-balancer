@@ -1,0 +1,33 @@
+#!/bin/sh
+# Install LAMP stack
+sudo yum update -y
+sudo yum install -y httpd wget php-fpm php-mysqlnd php-json php php-devel
+wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+sudo yum install -y mysql80-community-release-el7-3.noarch.rpm
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+sudo yum install -y mysql-community-client
+
+# Start the web server
+sudo chkconfig httpd on
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+# Install the web pages for the lab
+if [ ! -f /var/www/html/immersion-day-app-php7.tar.gz ]; then
+  cd /var/www/html
+  wget https://github.com/jianshn/csc-solutions/raw/main/immersion_php.tar.gz
+  sudo tar xvf immersion_php.tar.gz
+fi
+
+# Install the AWS SDK for PHP
+if [ ! -f /var/www/html/aws.zip ]; then
+  cd /var/www/html
+  mkdir vendor
+  cd vendor
+  wget https://docs.aws.amazon.com/aws-sdk-php/v3/download/aws.zip
+  unzip aws.zip
+fi
+
+# Update existing packages
+sudo yum update -y
+sudo systemctl restart httpd
