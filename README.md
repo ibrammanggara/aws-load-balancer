@@ -84,11 +84,20 @@
 7. storage : 8GB
 8. save
 
+---
 
+## langkah membuat EC2 (publik nat)
 
+1. masukan nama ec2 : nat instance
+2. ami : amazon linux 2
+3. instance type : t2.micro
+4. key pair : sakti.pem
+5. network setting : VPC-sakti, SUBNET PUBLIK 1B, ip publik Enable
+6. pilih security gruop : sakti-keamanan
+7. storage : 8GB
+8. save
 
-
-
+---
 
 
 
