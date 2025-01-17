@@ -8,7 +8,7 @@
 
 
 
-## Langkah membuat vpc
+## Langkah membuat VPC
 
 1. masukkan nama vpc : VPC-SAKTI
 2. masukkan ip cidr IPv4 : 192.168.0.0/16
@@ -36,6 +36,9 @@
 3. masukkan IPv4 subnet CIDR block : 192.168.40.0/24
 4. save
 
+   ## edit semua subnet publik
+1. Enable auto-assign public IPv4 address
+   
 ---
 
 ## membuat internet gateway
@@ -63,6 +66,37 @@
 4. #subnet associations
 5. SUBNET PUBLIK 1B
 6. SUBNET PUBLIK 1A
+
+## langkah membuat EC2 (publik)
+
+1. masukan nama ec2 : bastion host
+2. ami : amazon linux 2
+3. instance type : t2.micro
+4. key pair : sakti.pem
+5. network setting : VPC-sakti, SUBNET PUBLIK 1A, ip publik Enable
+6. buat security gruop : nama = sakti-keamanan | ssh = 22 | http = 80 | https = 443 | anywhere - IPv4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
