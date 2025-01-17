@@ -1,6 +1,6 @@
-# Project Title
+# Membuat load balancer dan auto scaling aws
 
-**Nama Project**: *Your Project Name*
+**TAG**: *AWS Load Balancer & Auto Scalling*
 
 ---
 
