@@ -106,10 +106,17 @@
 2. ceklis stop
 3. save
 
-
 ---
 
-### edit EC2 nat instance
+## langkah mengkaitkan routable (privat)
+
+### RT-PRIVAT SAKTI
+1. #add route
+2. destination : 0.0.0.0/0
+3. target : NAT INSTANCE
+4. #subnet associations
+5. SUBNET PRIVAT 1B
+6. SUBNET PRIVAT 1A
 
 
 
