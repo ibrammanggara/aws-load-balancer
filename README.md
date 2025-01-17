@@ -133,7 +133,7 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 3. instance type : t2.micro
 4. key pair : sakti.pem
 5. security grup : sakti-keamanan
-6. user data : (code)
+6. user data ambil disini : https://github.com/ibrammanggara/aws-load-balancer/blob/main/code.txt
 7. save
 
 ---
