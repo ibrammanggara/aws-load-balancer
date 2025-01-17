@@ -38,12 +38,31 @@
 
 ---
 
+## membuat internet gateway
 
+1. masukan nama igw : IGW-SAKTI
+2. attach ke vpc : VPC-SAKTI
 
+## langkah membuat 2 routable (publik dan privat)
 
+ ### publik
+1. masukan nama routable : RT-PUBLIK SAKTI
+2. pilih vpc : VPC-SAKTI
+3. save
+ ### privat
+1. masukan nama routable : RT-PRIVAT SAKTI
+2. pilih vpc : VPC-SAKTI
+3. save
 
+## langkah mengkaitkan routable (publik)
 
-
+### RT-PUBLIK SAKTI
+1. #add route
+2. destination : 0.0.0.0/0
+3. target : IGW-SAKTI
+4. #subnet associations
+5. SUBNET PUBLIK 1B
+6. SUBNET PUBLIK 1A
 
 
 
