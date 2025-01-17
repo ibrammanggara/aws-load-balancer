@@ -118,14 +118,44 @@
 5. SUBNET PRIVAT 1B
 6. SUBNET PRIVAT 1A
 
+---
+p
+---
 
+## langkah membuat launch template (EC2)
 
+1. masukkan nama : ec2-scal
+2. ami : amazon linux 2
+3. instance type : t2.micro
+4. key pair : sakti.pem
+5. user data : (code)
+6. save
 
+---
 
+## langkah membuat auto scaling (EC2)
 
-
-
-
+1. nama auto scaling : ec2-scaling
+2. pilih launch template : ec2-scal
+3. next
+4. network : vpc=VPC-SAKTI, subnet=(private 1A & privat 1B)
+5. next
+6. attach to a new load balancer
+7. load balancer type : Network Load Balancer
+8. nama load balancer = load-balancer-scal
+9. scheme : internet-facing
+10. load balancer subnet : subnet (publik 1A & publik 1B)
+11. port : 80 > create a target group
+12. nama target grup : load-balancer-scal
+13. Additional health check types : turn on elastic load balancer health checks
+14. next
+15. Desired capacity : 2
+16. Min desired capacity : 1
+17. Max desired capacity : 4
+18. Target tracking scaling policy : scaling policy name=policy | Metric type=average cpu | target value=30 | Instance warmup=120
+19. monitoring (optional)
+20. next 3x
+21. create auto scaling
 
 
 
