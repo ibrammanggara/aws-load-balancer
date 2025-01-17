@@ -80,7 +80,7 @@
 3. instance type : t2.micro
 4. key pair : sakti.pem
 5. network setting : VPC-sakti, SUBNET PUBLIK 1A, ip publik Enable
-6. buat security gruop : nama = sakti-keamanan | ssh = 22 | http = 80 | https = 443 | anywhere - IPv4
+6. buat security gruop : nama = sakti-keamanan | ssh = 22 | http = 80 | https = 443 | all-icmp Ipv4 | (all anywhere - IPv4)
 7. storage : 8GB
 8. save
 
