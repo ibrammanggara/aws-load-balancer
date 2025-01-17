@@ -162,10 +162,9 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 20. next 3x
 21. create auto scaling
 
+---
 
-
-
-
+### testing load balancer ke web browser
 
 
 
