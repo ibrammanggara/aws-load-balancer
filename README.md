@@ -10,14 +10,40 @@
 
 ## Langkah membuat vpc
 
-1. masukan nama vpc : VPC-SAKTI
-2. masukan ip cidr IPv4 : 192.168.0.0/16
+1. masukkan nama vpc : VPC-SAKTI
+2. masukkan ip cidr IPv4 : 192.168.0.0/16
 3. save
 
 ---
 
-## Langkah membuat subnet (publik 1-2 & privat 1-2)
+## Langkah membuat 4 subnet (2 publik subnet & 2 privat subnet)
 
 1. pilih vpc : VPC-SAKTI
-2. masukan nama subnet : PUBLIK 1
+2. masukan nama subnet : SUBNET PUBLIK 1A
 3. pilih az : us-east-1a
+4. masukkan IPv4 subnet CIDR block : 192.168.10.0/24
+    (+) add new subnet
+1. masukan nama subnet : SUBNET PRIVAT 1A
+2. pilih az : us-east-1a
+3. masukkan IPv4 subnet CIDR block : 192.168.20.0/24
+    (+) add new subnet
+1. masukan nama subnet : SUBNET PUBLIK 1B
+2. pilih az : us-east-1b
+3. masukkan IPv4 subnet CIDR block : 192.168.30.0/24
+    (+) add new subnet
+1. masukan nama subnet : SUBNET PRIVAT 1B
+2. pilih az : us-east-1b
+3. masukkan IPv4 subnet CIDR block : 192.168.40.0/24
+
+
+
+
+
+
+
+
+
+
+
+
+
