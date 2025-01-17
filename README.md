@@ -135,7 +135,8 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 4. key pair : sakti.pem
 5. security grup : sakti-keamanan
 6. user data ambil disini : https://github.com/ibrammanggara/aws-load-balancer/blob/main/code.txt
-7. save
+7. tag : Key=Name | Value=autoscaling | resource type=instances
+8. save
 
 ---
 
