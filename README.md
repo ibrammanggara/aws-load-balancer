@@ -4,6 +4,10 @@
 
 ---
 
+![TPO Gambar](https://raw.githubusercontent.com/ibrammanggara/aws-load-balancer/main/tpo.png)
+
+
+
 ## 📚 Deskripsi Proyek
 
 Jelaskan secara singkat tujuan dan fungsi proyek Anda. Pastikan mencakup informasi berikut:
