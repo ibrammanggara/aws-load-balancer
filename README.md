@@ -166,6 +166,7 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 
 ### testing load balancer ke web browser
 
+![HASIL Gambar](https://raw.githubusercontent.com/ibrammanggara/aws-load-balancer/main/hasil.png)
 
 
 
