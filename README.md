@@ -34,6 +34,9 @@
 1. masukan nama subnet : SUBNET PRIVAT 1B
 2. pilih az : us-east-1b
 3. masukkan IPv4 subnet CIDR block : 192.168.40.0/24
+4. save
+
+---
 
 
 
