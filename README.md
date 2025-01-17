@@ -122,7 +122,7 @@
 
 ## testing EC2 private terhubung ke internet melalui nat
 
-1. 
+pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-private.md
 
 ---
 
