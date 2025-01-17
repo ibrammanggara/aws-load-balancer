@@ -13,6 +13,7 @@
 1. masukkan nama vpc : VPC-SAKTI
 2. masukkan ip cidr IPv4 : 192.168.0.0/16
 3. save
+4. edit vpc setting : ceklis enable dns hostname
 
 ---
 
