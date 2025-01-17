@@ -170,6 +170,11 @@ pindah ke : https://github.com/ibrammanggara/aws-load-balancer/blob/main/ec2-pri
 
 ![HASIL Gambar](https://raw.githubusercontent.com/ibrammanggara/aws-load-balancer/main/hasil.png)
 
+### EC2 list
+
+![LIST Gambar](https://raw.githubusercontent.com/ibrammanggara/aws-load-balancer/main/list.png)
+
+
 
 
 
