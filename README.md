@@ -98,6 +98,8 @@
 7. storage : 8GB
 8. save
 
+---
+
 ### edit EC2 nat instance
 
 1. masuk instance ec2
